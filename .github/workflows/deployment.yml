@@ -3,6 +3,7 @@ name: Vinculum Adaptor
 on:
   push:
     branches: ["master"]
+  workflow_dispatch:
 
 jobs:
   ssh-ec2:
